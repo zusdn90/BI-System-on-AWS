@@ -7,6 +7,7 @@
 # 작업순서
 1. Create Kinesis Data Streams to receive input data
 2. Create Kinesis Data Firehose to store data in S3
+   - Kinesis Data Firehose를 사용하면 실시간으로 데이터를 수집하고 일괄 처리하여 Amazon S3, Amazon Redshift 또는 ElasticSearch와 같은 스토리지 위치에 로드할 수 있다.
 3. Verify data pipeline operation
 4. Analyze data using Athena
 5. Data visualization with QuickSight
